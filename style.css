@@ -2,3 +2,15 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+.aboutpage {
+  display: none;
+}
+
+.projectpage {
+  display: none;
+}
+
+.contactpage {
+  display: none;
+}
