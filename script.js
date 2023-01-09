@@ -1,3 +1,9 @@
+$(".homebutton").click(function(){
+  $("div").hide();
+  $(".buttons").show();
+  $(".homepage").show();
+});
+
 $(".aboutbutton").click(function(){
   $("div").hide();
   $(".buttons").show();

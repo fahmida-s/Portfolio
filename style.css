@@ -1,4 +1,8 @@
-html, body {
+html {
+  
+}
+
+body {
   height: 100%;
   width: 100%;
   color: white;
@@ -7,10 +11,15 @@ html, body {
 
 h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
   text-align: center;
   font-size: 30px;
 }
@@ -20,14 +29,38 @@ button {
   color: white;
   padding: 11px;
   background-color: transparent;
-  border: none;
+  transition-duration: 0.4s;
+  float: left;
+  border: 1px solid #001233;
+
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+button:hover {
+  background-color: #00091a; 
+  color: white;
 }
 
 .buttons {
   display: flex;
-  background-color: #001a66;
+  background-color: #0f1e3e;
   border: double white 3px;
-  padding: 5px;
+  padding: 0px;
   margin: 60px;
 }
 
