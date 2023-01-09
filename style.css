@@ -58,6 +58,7 @@ button:hover {
 
 .buttons {
   display: flex;
+  justify-content: center;
   background-color: #0f1e3e;
   border: double white 3px;
   padding: 0px;
